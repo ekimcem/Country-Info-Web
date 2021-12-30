@@ -11,7 +11,7 @@ function initialize(data) {
   console.log(countries);
   let cards = "";
   countries.forEach((country) => {
-    cards += `<div class="card m-3" style="width: 300px;">
+    cards += `<div class="card m-3" style="width: 250px;">
     <img src="${country.flags.png}" class="card-img-top">
     <div class="card-body">
       <h5 class="card-title">${country.name.common}</h5>
